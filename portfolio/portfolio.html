@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38dd505696.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="headertxt">
+                <p class="intro">Hi! I am <span>Manav Garg</span></p>
+                <h1>Web Developer</h1>
+                <p class="headercontent1">Frontend Developer</p>
+                <p class="headercontent2">High level experience in web design and development knowledge, producing quality work.</p>
+            </div>
+        </div>
+        <div class="design">
+            <div class="circle">
+
+            </div>
+
+            <div class="circle">
+
+            </div>
+            <button><a href="#contact">Contact Me</a></button>
+        </div>
+    </div>
+
+   <!-----------------------------------------------------ABOUT---------------------------------------------------> 
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abtImg">
+                    <img src="protfolioIMG/about.jpg" alt="here is an image">
+                </div>
+                <div class="abtcontent">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>HI! I am a passionate learner in 4th year B.Tech programmer who loves to experience new fields.I am a Front-End Web Developer and i have already developed various front-end projects.</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Frontend Web Development</li>
+                            <li><span>Competative Programming</span><br>Solving DSA Problems</li>
+                            <li><span>App Development</span><br>Designing Apps Uing Flutter</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>none</span><br>none</li>
+                            <li><span>none</span><br>none</li>
+                            <li><span>none</span><br>none</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Class 10 <sup>th</sup>(2018-2019) - 92%</span><br>St. Aerjay Public School</li>
+                            <li><span>Class 12 <sup>th</sup>(2020-2021) - 95%</span><br>St. Aerjay Public School</li>
+                            <li><span>B.Tech (2021-2025)</span><br>G.L. Bajaj Institute Of Technology and Management</li>
+                        </ul>
+                    </div>
+                    <!--<a href="#" download class="btn btn2 btn3">Download CV</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------------------------------------------------------------services------------------------------------------------->
+
+<div class="services" id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I used to design frontend webpages of any website using HTML,CSS and JavaScript and also helps in solving problems related to frontend development.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-terminal"></i>
+                <h2>DSA Query</h2>
+                <p>I used to solve complex problem of Data Structures and Algorithms.I use C++ as my programming language to solve DSA questions.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>I used to design interactive applications using flutter and dart.I have also done certifications in Flutter course. </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------------------------------PORTFOLIO--------------------------------------------------------- -->
+
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">MY WORK</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="protfolioIMG/ecommerce.png" alt="here is an image">
+                <div class="work-content">
+                    <h3>E-Commerce Website</h3>
+                    <p>This is a site that facilitates the buying and selling of products and services. Digital marketplaces, online retail stores, and auction sites are considered ecommerce sites because they enable consumers to buy goods.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="protfolioIMG/ewaste.jpeg" alt="here is an image">
+                <div class="work-content">
+                    <h3>E-Waste (UI Design)</h3>
+                    <p>This is a E-Waste Management app's UI design which is made by using Figma for a hackathon protoype.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="protfolioIMG/shooting.jpeg" alt="here is an image">
+                <div class="work-content">
+                    <h3>Shooting Game</h3>
+                    <p>This is an shooting game in which a user has tp destory the things using a armed space craft.It is made with the help of C# and unity games</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ---------------------------------------------------CONTACT ME-------------------------------------------------------- -->
+
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>gargmanav63@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9412664680</p>
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/__manav_garg__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/manav-garg-7a9594250/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                
+                <a href="#" download class="btn btn2">Download CV</a>
+            
+            </div>
+            <div class="right">
+                <form>
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" id="email" placeholder="Enter E-mail" required>
+                    <textarea name="message" rows="6" placeholder="Enter your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <button type="reset" class="btn btn2">Clear</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Manav Garg</p>
+    </div>
+</div>
+<!-- --------------------------------------about section parts ----------------------------------------------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<!-- ------------------------------------------sidemenu on resposiveness------------------------------------------------- -->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+     function openmenu(){
+        sidemenu.style.right = "0px";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+</script>
+
+</body>
+</html>
